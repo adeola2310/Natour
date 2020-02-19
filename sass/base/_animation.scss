@@ -1,0 +1,34 @@
+@keyframes moveInLeft {
+  /*before the animation start*/
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+  /*when the animation finish at the left */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  /*before the animation start*/
+  0% {
+    opacity: 0;
+    /*moves the element to the right*/
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+  /*when the animation finish at the left */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
